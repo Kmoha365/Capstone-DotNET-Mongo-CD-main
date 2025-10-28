@@ -30,7 +30,7 @@ spec:
       serviceAccountName: noteapp-sa
       containers:
         - name: dotnet-noteapp
-          image: kmoha365/noteapp:v7
+          image: kmoha365/noteapp:v11
           ports:
             - containerPort: 5050
           env:
